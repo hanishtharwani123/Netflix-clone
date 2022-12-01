@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: black;
+    overflow-x: hidden;
+}
+
+.container {
+    background: url(images/bac.jpg);
+    height: 116vh;
+    width: 100vw;
+}
+
+.container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 116%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0px 27px 64px 0px #000;
+}
+
+.ima {
+    height: 118px;
+    width: 220px;
+    position: relative;
+    top: -14px;
+    left: 36px;
+    z-index: 2;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 643px;
+    width: 450px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .75);
+    position: relative;
+    top: -20px;
+    padding: 60px 68px 40px;
+    margin: 0 0 10px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 611;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    position: relative;
+    z-index: 2;
+}
+
+input {
+    background: #333;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    line-height: 50px;
+    position: relative;
+    z-index: 2;
+    margin: 34px 20px -22px 0;
+    padding: 6px;
+    width: 88%;
+    height: 41px;
+    padding-left: 24px;
+    font-size: 16px;
+    transition: font .1s ease, top .1s ease, transform .1s ease;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+
+.btn {
+    background: #e50914;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+    z-index: 2;
+    margin: 52px 26px -29px 0;
+    width: 98%;
+    height: 50px;
+    border: 2px solid red;
+    border-radius: 4px;
+    font-weight: 513;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.remo {
+    font-size: 14px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    position: relative;
+    top: -52px;
+    left: 19px;
+    color: #b3b3b3;
+    z-index: 2;
+    font-weight: 489;
+}
+
+.need {
+    font-size: 14px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    position: relative;
+    top: -72px;
+    left: 237px;
+    color: #b3b3b3;
+    z-index: 2;
+    font-weight: 489;
+}
+
+
+.tre {
+    width: 15px;
+    position: relative;
+    top: -19px;
+    color: #000;
+    font-size: 17px;
+    accent-color: #e50914;
+}
+
+
+.ali {
+    display: flex;
+}
+
+.new {
+    color: #b3b3b3;
+    font-size: 16px;
+    position: relative;
+    z-index: 2;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.nel {
+    font-size: 16px;
+    position: relative;
+    z-index: 2;
+    left: 7px;
+}
+
+.nel a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    transition: .1s;
+}
+
+.nel a:hover {
+    text-decoration: underline;
+}
+
+.lol {
+    color: #8c8c8c;
+    font-size: 13px;
+    position: relative;
+    top: 11px;
+    z-index: 2;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+span {
+    color: #0071eb;
+    font-size: 13px;
+    font-weight: 600;
+    transition: .1s;
+    cursor: pointer;
+}
+
+span:hover {
+    text-decoration: underline;
+}
+
+.que p {
+    position: relative;
+    font-size: 18px;
+    color: #737373;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    top: 84px;
+    left: 277px;
+}
+
+
+.a1 {
+    color: #737373;
+    font-size: 1em;
+    padding: 4px;
+}
+
+.footer {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 123px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    position: relative;
+
+}
+
+
+
+.wwe {
+    color: #737373;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    position: relative;
+    top: 31px;
+    left: 20px;
+}
+
+.ww {
+    color: #e50914;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    position: relative;
+    top: 27px;
+    left: 20px;
+}
+
+
+.fo {
+    position: relative;
+    top: -110px;
+    left: 261px;
+}
